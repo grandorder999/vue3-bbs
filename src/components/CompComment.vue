@@ -30,11 +30,11 @@ const addComment = (articleId: number): void => {
 
 <template>
   <div class="compcomment">
-    <div class="commentNameErrorMessage">{{ commentNameErrorMessage }}</div>
+    <!-- <div class="commentNameErrorMessage">{{ commentNameErrorMessage }}</div> -->
     <div>名前：<br /><input type="text" v-model="commentName" /></div>
-    <div class="commentContentErrorMessage">
+    <!-- <div class="commentContentErrorMessage">
       {{ commentContentErrorMessage }}
-    </div>
+    </div> -->
     <div>
       コメント：<br /><textarea
         name="textarea"
